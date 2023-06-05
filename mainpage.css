@@ -755,6 +755,7 @@ Responsive
     min-width: 16rem;
     min-height: 10rem;
     height: -webkit-fill-available;
+    overflow: hidden;
   }
   .content {
     padding: 0rem;
@@ -796,6 +797,7 @@ Responsive
   }
   .message textarea{
     height: -webkit-fill-available;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -889,6 +891,7 @@ Responsive
     min-width: 16rem;
     min-height: 10rem;
     height: -webkit-fill-available;
+    overflow: hidden;
   }
   .content {
     padding: 0rem;
