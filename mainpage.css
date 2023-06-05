@@ -747,6 +747,8 @@ Responsive
     display: flex;
     align-items: stretch;
     row-gap: 8px;
+    flex-wrap: wrap;
+    align-content: stretch;
   }
   .message textarea {
     padding: 5% 1rem;
