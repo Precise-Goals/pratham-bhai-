@@ -546,6 +546,9 @@ Responsive
     margin: 0;
     overflow-x: hidden;
   }
+  .showbox {
+    padding: 0rem 6rem;
+}
   body {
     overflow-x: hidden;
   }
@@ -756,11 +759,21 @@ Responsive
   .details {
     row-gap: 5px;
   }
+  .wordnav{
+    align-self: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
 }
 @media only screen and (min-height: 800px) {
   .headright {
     padding: 15rem 0rem 20rem;
   }
+  .showbox {
+    padding: 0rem 6rem;
+}
 }
 @media only screen and (max-width: 1024px) {
   * {
@@ -864,7 +877,7 @@ Responsive
     display: grid;
   }
   .headright img {
-    margin-left: 10rem;
+    margin-left: 4rem;
   }
   .header {
     margin-left: 2rem;
@@ -881,6 +894,13 @@ Responsive
   }
   .wordnav ul{
     width: 30rem;
+  }
+  .wordnav{
+    align-self: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
   }
 }
 /* <!-- powered by Precise Goals --> */
