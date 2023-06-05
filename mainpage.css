@@ -782,7 +782,7 @@ Responsive
     border-top: 3px solid #285598;
   }
 }
-@media only screen and (min-height: 800px) {
+@media only screen and (max-height: 800px) {
   .headright {
     padding: 15rem 0rem 20rem;
   }
