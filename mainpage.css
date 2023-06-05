@@ -781,16 +781,6 @@ Responsive
   }
 }
 @media only screen and (max-height: 800px) {
-  .headright {
-    padding: 15rem 0rem 20rem;
-  }
-  .showbox {
-    padding: 0rem 0rem;
-  }
-  .navbar {
-    column-gap: 2%;
-    top:0;
-  }
   .message textarea{
     height: -webkit-fill-available;
     overflow: hidden;
