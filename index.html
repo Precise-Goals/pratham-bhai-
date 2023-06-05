@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pratham Handa" />
+    <meta name="description" content="Portfolio Website of Pratham Handa." />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <link
+      rel="shortcut icon"
+      href="../bin/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+    <title>Pratham Handa</title>
+    <link rel="stylesheet" href="/website/mainpage.css" />
+    <script
+      src="https://kit.fontawesome.com/962a2d9588.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    
+    <!-- powered by Precise Goals -->
+    <div id="Home">
+      <div class="overlay">
+        <div class="navbar">
+          <img src="../bin/imageremovebg-preview.png" class="prathamlogo" />
+          <div class="wordnav">
+            <ul id="sidemenu">
+              <li>
+                <a href="#Home"><p>Home</p></a>
+              </li>
+              <li>
+                <a href="#About"><p>About</p></a>
+              </li>
+              <li>
+                <a href="#Portfolio"><p>Portfolio</p></a>
+              </li>
+              <li>
+                <a href="#photer"><p>Contact</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="homecontent">
+          <div class="headright">
+            <div class="header">
+              <div class="line"></div>
+              <h1>
+                Hey , <br />
+                I am Pratham
+              </h1>
+            </div>
+            <img src="../bin/image-removebg-preview.png" class="pcico" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- powered by Precise Goals -->
+    <!-- //about -->
+
+    <div id="About">
+      <div class="overley reveal">
+        <div class="aboutcol1 reveal">
+          <h1>Hi Guys</h1>
+          <p>A bit about me ;</p>
+          <div class="tab-titles reveal">
+            <p class="tab-links active-link" onclick="opentab('education')">
+              My Edu.
+            </p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Worked</p>
+          </div>
+          <div class="showbox">
+            <div class="tab-contents active-tab" id="education">
+              <h5>
+                I am Pratham Handa, Currently pursuing a bachelor's degree in
+                computer science, driven by a passion for knowledge and
+                excellence. Achieved 90.2% in 10th and 76% in 12th, qualifying
+                JEE mains and MHTCET.
+              </h5>
+            </div>
+            <div class="tab-contents" id="skills">
+              <h5>
+                I bring innovation to web development and database management
+                using HTML, CSS, JavaScript, Bootstrap, jQuery, MySQL, PL/SQL,
+                C/C++, R, Python. As a skilled content writer, I create
+                captivating content for a seamless and engaging digital
+                experience.
+              </h5>
+            </div>
+            <div class="tab-contents" id="experience">
+              <h5>
+                Open source developer, Python developer since 2020, content
+                writer, blogger, SME expert at chegg.com, ex-campus ambassador
+                at prepbytes, and full stack developer since 2022.
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <img src="../bin/ReadyPlayerMe-Avatar(1).png" alt="" />
+      </div>
+    </div>
+    <!-- powered by Precise Goals -->
+    <!-- //Portfolio -->
+
+    <div id="Portfolio">
+      <div class="work">
+        <div class="overy">
+          <div class="overtext reveal">
+            <h2>Lets See my Work</h2>
+            <h1>My Portfolio</h1>
+            <div class="Lin"></div>
+          </div>
+          <div class="links reveal">
+            <ul>
+              <li>
+                <a
+                  href="https://drive.google.com/drive/folders/1t7ez1Ptk9Lt4ISkuT4SWE455o1QEgGHx?usp=sharing"
+                  ><i class="fa-solid fa-pen-nib"></i> My Writing</a
+                >
+              </li>
+              <li>
+                <a href="https://youtube.com/@linkingthecodes1570"
+                  ><i class="fa-brands fa-youtube"></i> Youtube Channel</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/drive/folders/1bWNgr7rvCWBZvfH4f_nbmvfh6vbt1Bpo"
+                  ><i class="fa-solid fa-swatchbook"></i> My Designs</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- powered by Precise Goals -->
+    <!-- //Contact  -->
+    <div id="Contact">
+      <div class="over">
+        <div class="content reveal">
+          <img src="../bin/image-removebg-preview (4).png" />
+          <div class="forum">
+            <form name="submit-to-google-sheet" class="form">
+              <h1>Get in Touch. . .</h1>
+              <div class="d">
+                <div class="details reveal">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name*"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Your Email*"
+                    required
+                  />
+                  <button type="submit" class="pcbtn2">Submit</button>
+                  <span id="msg"> </span>
+                </div>
+                <div class="message reveal">
+                  <textarea
+                    name="Message"
+                    rows="7"
+                    placeholder="Your Details*"
+                  ></textarea>
+                </div>
+                <button type="submit" class="mobbtn2">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer" id="photer">
+          <h2>Pratham Handa -2023 All rights Reserved ®</h2>
+          <div class="socials">
+            <h2>Follow me !</h2>
+            <a href="https://github.com/Pratham-Handa"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.youtube.com/@linkingthecodes1570"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="https://www.twitch.tv/hero_links"
+              ><i class="fa-brands fa-twitch"></i
+            ></a>
+            <a href="https://www.instagram.com/pratham_handa_/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="../website/workpages/discord.html"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- powered by Precise Goals -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <!-- powered by Precise Goals -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxBGhhN08ejJKLBidOiK-cVilOB9yhrDpuBWLmm8qfefGRQRcNS61ZmFKiRmnaA7UjQ5A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = " ";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 1500);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <!-- powered by Precise Goals -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", reveal);
+
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 110;
+
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+    </script>
+    <!-- powered by Precise Goals -->
+  </body>
+</html>
